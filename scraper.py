@@ -7,8 +7,8 @@ urls = pd.read_csv('input.csv')
 
 def getRandomProxy():
     proxy = {
-    "http": f"http://scraperapi:4eb1d2723d0d2d978313010ba5ad69e6@proxy-server.scraperapi.com:8001",
-    "https": f"http://scraperapi:4eb1d2723d0d2d978313010ba5ad69e6@proxy-server.scraperapi.com:8001"
+    "http": f"http://scraperapi:APIKey@proxy-server.scraperapi.com:8001",
+    "https": f"http://scraperapi:APIKey@proxy-server.scraperapi.com:8001"
     }
 
     return proxy
